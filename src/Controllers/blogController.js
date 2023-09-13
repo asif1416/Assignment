@@ -1,6 +1,5 @@
 // Create a blog post
 exports.create = (req, res) => {
-    welcome.showMsg(res);
     res.send("Create Blog API: Blog post created successfully");
 };
 
